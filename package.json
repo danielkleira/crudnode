@@ -1,0 +1,40 @@
+{
+  "name": "m4-sprint5-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest",
+    "dev": "ts-node-dev src/server.ts",
+    "typeorm": "typeorm-ts-node-commonjs"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.8",
+    "@types/node": "^18.0.3",
+    "@types/supertest": "^2.0.12",
+    "@types/uuid": "^8.3.4",
+    "sqlite3": "^5.1.2",
+    "supertest": "^6.3.1",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  },
+  "repository": "git@github.com:Kenzie-Academy-Brasil-Developers/sprint5-entrega-danielkleira.git",
+  "author": "danielkleira <daniel_leira@hotmail.com>",
+  "dependencies": {
+    "@types/jest": "^29.2.3",
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jest": "^29.3.1",
+    "pg": "^8.7.3",
+    "reflect-metadata": "^0.1.13",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
+    "typeorm": "^0.3.7",
+    "uuid": "^8.3.2"
+  }
+}
